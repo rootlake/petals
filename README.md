@@ -26,7 +26,6 @@ This interactive implementation allows you to:
 
 The puzzle's origins are somewhat mysterious, but it gained popularity in the 1970s when it was reportedly played in President Richard Nixon's White House. It has since become a classic brain teaser taught in schools and shared among puzzle enthusiasts worldwide.
 
-Bill Gates is said to have solved it instantly, while others may spend days contemplating the secret. How long will it take you?
 
 ## Play Online
 
