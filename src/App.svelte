@@ -10,7 +10,7 @@
   let calculatedAnswer = null;
 
   const GRID_COLS = 7;
-  const GRID_ROWS = 3;
+  const GRID_ROWS = 2;
   const ANIM_DURATION = 400;
 
   $: buttonText = (() => {
@@ -102,9 +102,9 @@
     <img src={roseImage} alt="Rose" class="rules-image-absolute" />
     <h2>The Rules</h2>
     <ul>
-      <li>Rule 1: The name of the game is "Petals Around the Roses."</li>
-      <li>Rule 2: The name is significant.</li>
-      <li>Rule 3: The answer is always even or zero.</li>
+      <li>Rule 1: The name of the game is "<b>Petals Around the Roses</b>."</li>
+      <li>Rule 2: The name <i>is</i> significant.</li>
+      <li>Rule 3: The answer is always even (or zero).</li>
     </ul>
   </section>
 
@@ -216,11 +216,11 @@
   .dice-area {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 90%;
     max-width: 850px;
     min-width: 540px;
-    aspect-ratio: 7 / 3;
+    aspect-ratio: 7 / 2;
     margin: 1rem auto;
     gap: 30px;
     padding: 10px;
